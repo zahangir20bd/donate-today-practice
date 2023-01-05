@@ -98,3 +98,80 @@ hr {
   max-width: 800px;
   margin: auto;
 }
+
+/* services styles */
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 100px;
+}
+
+.service-criteria-food {
+  max-width: 300px;
+  padding: 60px 30px;
+  border-radius: 5px;
+  background-color: #edf5f6;
+}
+
+.service-criteria-shelter {
+  max-width: 300px;
+  padding: 60px 30px;
+  border-radius: 5px;
+  background-color: #ffeeee;
+}
+
+.service-criteria-edu {
+  max-width: 300px;
+  padding: 60px 30px;
+  border-radius: 5px;
+  background-color: #f0e3bf;
+}
+
+.criteria-title {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 40px 0px;
+}
+
+.criteria-caption {
+  font-size: 20px;
+  color: #535050;
+}
+
+/* Gallery Styles */
+
+.donate-gallery {
+  margin: 80px 50px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gallery-content {
+  max-width: 500px;
+}
+
+.gallery-title {
+  font-width: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.gallery-caption p {
+  font-size: 20px;
+  color: #535050;
+  margin-bottom: 30px;
+}
+
+.gallery-image img {
+  width: 600px;
+  height: 450px;
+}
+
+.free-space {
+  margin: 100px 0px;
+}
