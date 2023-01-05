@@ -1,0 +1,100 @@
+/* Universal styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-primary {
+  background-color: #ff5959;
+  border: 0;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+/* Header Styles */
+.header {
+  background-image: url("../images/donation13.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header-content {
+  padding: 40px 200px 100px;
+  text-align: center;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 60px;
+  margin: 30px 50px 10px;
+  color: white;
+}
+
+.header-caption {
+  color: white;
+  margin-bottom: 30px;
+}
+
+/* Donate Today Styles */
+
+.donate-today {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin: 80px 0px 20px;
+}
+
+.section-caption {
+  color: #535050;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.donate-amonut ul {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.donate-amonut ul li {
+  list-style: none;
+  border-radius: 5px;
+  padding: 40px 0px;
+  width: 135px;
+  font-weight: 1000;
+  font-size: 30px;
+  background-color: #ebecec;
+  color: #4b4848;
+  border: 2px solid white;
+}
+
+.donate-amonut ul li:hover {
+  background-color: #f5e0e0;
+  border: 2px solid #e77979;
+}
+.other-amount {
+  color: #9c9c9c;
+  font-size: 20px;
+  margin: 10px;
+}
+
+hr {
+  margin-bottom: 30px;
+  color: #a3a1a1;
+}
+
+/* donate plan styles */
+.donate-plan {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
