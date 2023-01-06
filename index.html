@@ -7,6 +7,16 @@
     <title>Donate-Today</title>
     <link rel="stylesheet" href="styles/style.css" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&family=Open+Sans:wght@400;700&family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@400;700&family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
@@ -36,18 +46,23 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eligendi
           minus qui expedita corrupti eum quas excepturi labore, et unde.
         </p>
-        <div class="donate-amonut">
-          <ul>
-            <li>100 TK</li>
-            <li>200 TK</li>
-            <li>500 TK</li>
-            <li>1000 TK</li>
-            <li>5000 TK</li>
-          </ul>
+        <div class="donate-amount">
+          <div class="buttons">
+            <button class="amounts">100 TK</button>
+            <button class="amounts">200 TK</button>
+            <button class="amounts">500 TK</button>
+            <button class="amounts">1000 TK</button>
+            <button class="amounts">5000 TK</button>
+          </div>
         </div>
         <div class="input-amount">
-          <p class="other-amount">Other Amount (taka)</p>
-          <hr />
+          <input
+            class="other-amount"
+            type="number"
+            placeholder="Other Amount (Taka)"
+          />
+          <!-- <p class="other-amount">Other Amount (taka)</p> -->
+          <!-- <hr /> -->
           <button class="btn-primary">Donate Now</button>
         </div>
       </section>
